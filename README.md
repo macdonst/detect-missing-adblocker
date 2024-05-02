@@ -11,15 +11,15 @@
 ### Unpkg
 
 ```html
-<script type="module" src="https://unpkg.com/detect-missing-adblock/detect-missing-adblock.js?module=true"></script>
-<link rel="stylesheet" href="https://unpkg.com/detect-missing-adblock/detect-missing-adblock/nativeads.js.css">
+<script type="module" src="https://unpkg.com/detect-missing-adblocker@latest/dist/detect-missing-adblocker.js?module=true"></script>
+<link rel="stylesheet" href="https://unpkg.com/detect-missing-adblocker@latest/nativeads.js.css">
 ```
 
 ### Snowpack
 
 ```html
-<script type="module" src="https://cdn.skypack.dev/detect-missing-adblock"></script>
-<link rel="stylesheet" href="https://cdn.skypack.dev/detect-missing-adblock/nativeads.js.css">
+<script type="module" src="https://cdn.skypack.dev/detect-missing-adblocker"></script>
+<link rel="stylesheet" href="https://cdn.skypack.dev/detect-missing-adblocker/nativeads.js.css">
 ```
 
 2. Start using it!
@@ -44,7 +44,7 @@ npm i detect-missing-adblock
 2. Import custom element:
 
 ```javascript
-import DetectMissingAdBlocker from 'detect-missing-adblock'
+import DetectMissingAdBlocker from 'detect-missing-adblocker/dist/detect-missing-adblocker.js'
 ```
 
 3. Include that `script` tag in your HTML.
