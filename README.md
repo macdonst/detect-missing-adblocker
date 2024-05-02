@@ -2,7 +2,7 @@
 
 > A web component that will show a warning if a visitor doesn't have an ad blocker.
 
-
+Based off of [detect-missing-adblocker](https://github.com/stefanbohacek/detect-missing-adblocker)
 
 ## Including the component to an HTML file
 
