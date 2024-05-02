@@ -1,0 +1,21 @@
+{
+  "name": "detect-missing-adblocker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "detect-missing-adblocker.js",
+  "module": "/dist/detect-missing-adblocker.js",
+  "type": "module",
+  "scripts": {
+    "dist": "rollup --config ./rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@enhance/custom-element": "^1.2.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.17.2"
+  }
+}
