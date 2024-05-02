@@ -1,6 +1,6 @@
 {
   "name": "detect-missing-adblocker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "detect-missing-adblocker.js",
   "module": "/dist/detect-missing-adblocker.js",
